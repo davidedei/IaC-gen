@@ -569,7 +569,7 @@ The paper does not stop at accuracy numbers. Its Section 7 checks whether the da
 - **Repair loop effectiveness.** Success and failure of the repair loop is plotted against the number of resources, the number of inter resource relations, and the number of lines. The paper finds that policy generation gets **easier** with complexity, while mutation generation gets **harder**.
 
 > [!TIP]
-> At doctoral scale you will not recruit twenty cloud experts. A defensible substitute is a smaller panel of three or four raters on a smaller sample, with the agreement coefficient reported and the reduced sample size stated as a limitation.
+> To recruit twenty cloud experts is very costly and seems unfeasible. So, you will not recruit twenty cloud experts. A defensible substitute is a smaller panel of three or four raters on a smaller sample, with the agreement coefficient reported and the reduced sample size stated as a limitation.
 
 ### 9.1 How to report your reproduction
 
