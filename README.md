@@ -152,7 +152,7 @@ A reproduction study is only credible if you are explicit about what you could a
 
 The authors used eight NVIDIA A100 GPUs with eighty gigabytes each for training, and eight A100 cards with forty gigabytes for inference. Dataset curation cost about fifteen thousand US dollars in commercial model tokens.
 
-If you do not have this, and almost no single doctoral student does, you do not abandon the reproduction. **You scale it and you document the scaling.**
+If you do not have this, and almost no single researcher/student does, you do not abandon the reproduction. **You scale it and you document the scaling.**
 
 ### 3.2 What a defensible scaled reproduction looks like
 
