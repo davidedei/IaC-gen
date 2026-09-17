@@ -62,14 +62,14 @@
 
 ### Progress overview
 
-| Phase | Topic | Status |
-| :---: | --- | :---: |
-| A | [Setting up the machine](#4-phase-a-setting-up-the-machine) | ✅ Done |
-| B | [Verification oracles](#5-phase-b-rebuilding-the-three-verification-oracles) | ⬜ Pending |
-| C | [Dataset rebuild](#6-phase-c-rebuilding-a-dataset) | ⬜ Pending |
-| D | [Baseline evaluation](#7-phase-d-reproducing-the-baseline-evaluation) | ⬜ Pending |
-| E | [Fine tuning](#8-phase-e-fine-tuning) | ⬜ Pending |
-| F | [Quality assessment and reporting](#9-phase-f-quality-assessment-and-reporting) | ⬜ Pending |
+| Phase | Topic |
+| :---: | --- |
+| A | [Setting up the machine](#4-phase-a-setting-up-the-machine) |
+| B | [Verification oracles](#5-phase-b-rebuilding-the-three-verification-oracles) |
+| C | [Dataset rebuild](#6-phase-c-rebuilding-a-dataset) |
+| D | [Baseline evaluation](#7-phase-d-reproducing-the-baseline-evaluation) |
+| E | [Fine tuning](#8-phase-e-fine-tuning) |
+| F | [Quality assessment and reporting](#9-phase-f-quality-assessment-and-reporting) |
 
 ---
 
@@ -171,8 +171,6 @@ If you do not have this, and almost no single doctoral student does, you do not 
 
 ## 4. Phase A. Setting up the machine
 
-> [!NOTE]
-> **Status: ✅ DONE**
 
 Everything here runs on Linux. If your machine runs Windows, install the Windows Subsystem for Linux (WSL) first and do all the work inside it. On macOS most commands work with Homebrew instead of `apt`.
 
@@ -216,9 +214,6 @@ curl -s https://raw.githubusercontent.com/terraform-linters/tflint/master/instal
 # Checkov
 pip install checkov
 ```
-
-> [!NOTE]
-> As duas linhas do ambiente virtual estavam tachadas no documento original porque o ambiente `~/tfenv` já havia sido criado. Em uma máquina nova, remova o `#` do início delas e execute-as.
 
 Check each tool by running:
 
