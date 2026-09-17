@@ -207,7 +207,7 @@ chmod 755 opa && sudo mv opa /usr/local/bin/
 # TFLint
 curl -s https://raw.githubusercontent.com/terraform-linters/tflint/master/install_linux.sh | bash
 
-# Virtual environment
+# Python virtual environment
 Python virtual environment
 python3.12 -m venv ~/tfenv
 source ~/tfenv/bin/activate
