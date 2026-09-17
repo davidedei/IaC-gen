@@ -207,9 +207,10 @@ chmod 755 opa && sudo mv opa /usr/local/bin/
 # TFLint
 curl -s https://raw.githubusercontent.com/terraform-linters/tflint/master/install_linux.sh | bash
 
-# Python virtual environment
-# python3.12 -m venv ~/tfenv        # ignorado: o ambiente virtual já havia sido criado
-# source ~/tfenv/bin/activate       # ignorado: o ambiente virtual já havia sido criado
+# Virtual environment
+Python virtual environment
+python3.12 -m venv ~/tfenv
+source ~/tfenv/bin/activate
 
 # Checkov
 pip install checkov
