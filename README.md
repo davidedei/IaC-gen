@@ -271,7 +271,7 @@ terraform plan -out tfplan
 | --- | --- |
 | `terraform init` | Downloads the AWS provider plugin, so you need an internet connection the first time. If you ever set or change modules or backend configuration, rerun this command to reinitialize your working directory. If you forget, other commands will detect it and remind you. |
 | `terraform validate` | Should say the configuration is valid. |
-| `terraform plan -out tfplan` | - `terraform plan` It calculates what will be created, changed, or destroyed. __ - `-out tfplan` Save this plan in a file called `tfplan`. Then, apply exactly that plan with `terraform apply tfplan`. |
+| `terraform plan -out tfplan` | - `terraform plan` It calculates what will be created, changed, or destroyed. __   - `-out tfplan` Save this plan in a file called `tfplan`. Then, apply exactly that plan with `terraform apply tfplan`. |
 
 > [!NOTE]
 > `terraform plan` may complain that no credentials are configured. [Section 5.2](#52-credentials-and-the-plan-command) explains how to handle that.
